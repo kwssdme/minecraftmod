@@ -1,0 +1,44 @@
+{
+	"schemaVersion": 1,
+	"id": "kwssdme-mod",
+	"version": "${version}",
+	"name": "Kwssdme Mod",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/kwssdme-mod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.kwssdme.KwssdmeMod"
+		],
+		"client": [
+			"com.kwssdme.KwssdmeModClient"
+		],
+		"fabric-datagen": [
+			"com.kwssdme.KwssdmeModDataGenerator"
+		]
+	},
+	"mixins": [
+		"kwssdme-mod.mixins.json",
+		{
+			"config": "kwssdme-mod.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.17.2",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
