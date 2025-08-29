@@ -10,11 +10,13 @@ import net.minecraft.util.Identifier;
 
 public final class KwssdmeItemGroup {
     public static final ItemGroup KWSSDME_ITEM_GROUP = FabricItemGroup.builder()
-           .icon(() -> new ItemStack(kwssdmeitem.KWSSDME_ITEM))
+
+           .icon(() -> new ItemStack(ModItems.KWSSD_ITEM))
            .displayName(Text.translatable("itemGroup.kwssdme"))
            .entries((context, entries)->{
-                entries.add(kwssdmeitem.KWSSDME_ITEM);})
+                entries.add(ModItems.KWSSD_ITEM);})
            .build();
+
     public static void initialize(){
         Registry.register(Registries.ITEM_GROUP, new Identifier("kwssdme", "kwssdme_item_group"), KWSSDME_ITEM_GROUP);
     }
