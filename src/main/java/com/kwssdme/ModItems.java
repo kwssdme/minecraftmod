@@ -8,6 +8,12 @@ public final class ModItems {
     private ModItems(){}
 
     public static final Item shit = register("shit", new Item(new Item.Settings()));
+    public static final Item vpn = register("vpn",new Item(new Item.Settings()));
+
+
+
+
+
 
     public static <T extends Item> T register(String path, T item){
         return Registry.register(Registries.ITEM, new Identifier("kwssdme", path), item);
