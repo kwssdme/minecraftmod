@@ -1,6 +1,6 @@
 {
     "parent": "minecraft:item/generated",
     "textures": {
-        "layer0": "com.kwssdme:item/shit"
+        "layer0": "kwssdme-mod:item/shit"
     }
 }
