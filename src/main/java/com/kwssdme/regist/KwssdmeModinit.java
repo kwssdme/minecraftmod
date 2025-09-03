@@ -1,8 +1,10 @@
-package com.kwssdme;
+package com.kwssdme.regist;
+
+import com.kwssdme.moditemgroup.KwssdmeItemGroup;
 
 import net.fabricmc.api.ModInitializer;
 
-public class KwssdmeMod  implements ModInitializer{
+public class KwssdmeModinit  implements ModInitializer{
     @Override
     public void onInitialize(){
         ModItems.initialize();

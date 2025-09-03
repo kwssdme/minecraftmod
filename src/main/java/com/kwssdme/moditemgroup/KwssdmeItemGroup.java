@@ -1,5 +1,6 @@
-package com.kwssdme;
+package com.kwssdme.moditemgroup;
 
+import com.kwssdme.regist.ModItems;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
@@ -15,6 +16,7 @@ public final class KwssdmeItemGroup {
             .entries((context, entries)->{
                 entries.add(ModItems.shit);
                 entries.add(ModItems.vocild);})
+                
             .build();
 
     public static void initialize(){
