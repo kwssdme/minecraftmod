@@ -8,7 +8,7 @@ public final class ModItems {
     private ModItems(){}
 
     public static final Item shit = registerItem("shit", new Item(new Item.Settings()));
-    public static final Item vpn = registerItem("vpn",new Item(new Item.Settings()));
+    public static final Item vocild = registerItem("vocild",new Item(new Item.Settings()));
 
 
 
