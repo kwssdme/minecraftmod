@@ -7,5 +7,6 @@ public class KwssdmeMod  implements ModInitializer{
     public void onInitialize(){
         ModItems.initialize();
         KwssdmeItemGroup.initialize();
+        
     }
 }

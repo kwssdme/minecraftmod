@@ -10,7 +10,6 @@ import net.minecraft.util.Identifier;
 
 public final class KwssdmeItemGroup {
     public static final ItemGroup KWSSDME_ITEM_GROUP = FabricItemGroup.builder()
-
             .icon(() -> new ItemStack(ModItems.shit))
             .displayName(Text.translatable("itemGroup.kwssdme"))
             .entries((context, entries)->{
