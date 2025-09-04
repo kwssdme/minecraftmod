@@ -1,5 +1,4 @@
 package com.kwssdme.regist;
-
 import net.minecraft.client.item.TooltipContext;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
