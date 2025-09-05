@@ -1,6 +1,5 @@
 package com.kwssdme.regist;
 import java.util.List;
-
 import net.minecraft.client.item.TooltipContext;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
@@ -13,10 +12,6 @@ import net.minecraft.world.World;
 
 public class ModItems extends Item{
     public ModItems(){super(new Item.Settings());}
-
-    public static <T extends Item> T registerItem(String path, T item){
-        return Registry.register(Registries.ITEM, new Identifier("kwssdme", path), item);
-    }
 
     public static final Item shit = registerItem("shit", new Item(new Item.Settings()));
         public static class ShitItem extends Item{
@@ -31,16 +26,18 @@ public class ModItems extends Item{
 
 
 
-    public static final Item vocaloid = registerItem("vocild",new Item(new Item.Settings()));
+    public static final Item vocaloid = registerItem("vocaloid",new Item(new Item.Settings()));
         public static class vocaloidItem extends Item{
             public vocaloidItem(Settings settings){
                 super(settings);
         }
     @Override
     public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context){
-        tooltip.add(Text.translatable("tips.kwssdme.vocild"));
+        tooltip.add(Text.translatable("tips.kwssdme.vocaloid"));
     }
 }
-
+    public static <T extends Item> T registerItem(String path, T item){
+        return Registry.register(Registries.ITEM, new Identifier("kwssdme", path), item);
+    }
     public static void initialize(){}
 }
