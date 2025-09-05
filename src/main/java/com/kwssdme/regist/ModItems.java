@@ -36,6 +36,7 @@ public class ModItems extends Item{
         tooltip.add(Text.translatable("tips.kwssdme.vocaloid"));
     }
 }
+
     public static <T extends Item> T registerItem(String path, T item){
         return Registry.register(Registries.ITEM, new Identifier("kwssdme", path), item);
     }
