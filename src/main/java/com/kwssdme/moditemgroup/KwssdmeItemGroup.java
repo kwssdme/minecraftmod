@@ -15,7 +15,7 @@ public final class KwssdmeItemGroup {
             .displayName(Text.translatable("itemGroup.kwssdme"))
             .entries((context, entries)->{
                 entries.add(ModItems.shit);
-                entries.add(ModItems.vocild);})
+                entries.add(ModItems.vocaloid);})
                 
             .build();
 
