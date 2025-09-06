@@ -8,7 +8,7 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.text.Text;
 import net.minecraft.world.World;
 
-public final class shit {
+public final class Shit {
 
     public static final Item shit  = ModItems.registerItem("shit", new Item(new Item.Settings()));
     

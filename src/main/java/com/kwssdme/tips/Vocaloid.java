@@ -10,9 +10,9 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.text.Text;
 import net.minecraft.world.World;
 
-public final class vociload {
+public final class Vocaloid {
 
-    public static final Item shit  = ModItems.registerItem("vocaloid", new Item(new Item.Settings()));
+    public static final Item vocaloid = ModItems.registerItem("vocaloid", new Item(new Item.Settings()));
     
     public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
         tooltip.add(Text.translatable("tips.kwssdme.vocaloid"));
