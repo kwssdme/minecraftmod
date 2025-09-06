@@ -7,16 +7,16 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
-import com.kwssdme.tips.Shit;
-import com.kwssdme.tips.Vocaloid;
+import com.kwssdme.tips.shit;
+import com.kwssdme.tips.vocaloid;
 
 public final class KwssdmeItemGroup {
     public static final ItemGroup KWSSDME_ITEM_GROUP = FabricItemGroup.builder()
-            .icon(() -> new ItemStack(Shit.shit))
+            .icon(() -> new ItemStack(shit.shit))
             .displayName(Text.translatable("itemGroup.kwssdme"))
             .entries((context, entries)->{
-                entries.add(Shit.shit);
-                entries.add(Vocaloid.vocaloid);})
+                entries.add(shit.shit);
+                entries.add(vocaloid.vocaloid);})
                 
             .build();
 
