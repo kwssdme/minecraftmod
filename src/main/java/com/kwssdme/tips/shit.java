@@ -20,6 +20,8 @@ public static final Item shit = registerItem("shit", new Item(new Item.Settings(
 public static <T extends Item> T registerItem(String path, T item){
         return Registry.register(Registries.ITEM, new Identifier("kwssdme", path), item);
     }
-}
 
+    public void initialize() {}
+
+}
 
