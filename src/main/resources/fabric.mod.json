@@ -16,7 +16,7 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.kwssdme.regist.KwssdmeModinit"
+			"com.kwssdme.regist.KwssdmeModInit"
 		],
 		"client": [
 			"com.kwssdme.KwssdmeModClient"
