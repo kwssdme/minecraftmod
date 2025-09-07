@@ -1,8 +1,8 @@
 package com.kwssdme.regist;
 
+import com.kwssdme.items.shit;
+import com.kwssdme.items.vocaloid;
 import com.kwssdme.moditemgroup.KwssdmeItemGroup;
-import com.kwssdme.tips.shit;
-import com.kwssdme.tips.vocaloid;
 
 import net.fabricmc.api.ModInitializer;
 

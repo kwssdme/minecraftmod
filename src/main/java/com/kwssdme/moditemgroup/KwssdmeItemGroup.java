@@ -1,5 +1,8 @@
 package com.kwssdme.moditemgroup;
 
+import com.kwssdme.items.shit;
+import com.kwssdme.items.vocaloid;
+
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
@@ -7,8 +10,6 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
-import com.kwssdme.tips.shit;
-import com.kwssdme.tips.vocaloid;
 
 public final class KwssdmeItemGroup {
     public static final ItemGroup KWSSDME_ITEM_GROUP = FabricItemGroup.builder()

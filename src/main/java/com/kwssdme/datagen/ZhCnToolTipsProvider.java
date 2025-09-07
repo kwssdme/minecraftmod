@@ -1,7 +1,7 @@
 package com.kwssdme.datagen;
 
-import com.kwssdme.tips.shit;
-import com.kwssdme.tips.vocaloid;
+import com.kwssdme.items.shit;
+import com.kwssdme.items.vocaloid;
 
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricLanguageProvider;
