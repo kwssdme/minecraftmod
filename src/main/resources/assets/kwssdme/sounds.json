@@ -4,5 +4,18 @@
     "sounds":[
         "kwssdme:vocaloid_sound"
     ]
+},
+    "sky_contry_sound":{
+    "subtitle":"天天天国地狱",
+    "sounds":[
+        "kwssdme:sky_contry_sound"
+    ]
 }
+
+
+
+
+
+
+
 }

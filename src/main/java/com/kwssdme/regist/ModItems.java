@@ -5,7 +5,7 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 
-
+//物品注册
 public class ModItems {
     private ModItems(){}
     

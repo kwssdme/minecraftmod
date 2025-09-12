@@ -1,5 +1,6 @@
 package com.kwssdme.moditemgroup;
 
+import com.kwssdme.items.SkyContry;
 import com.kwssdme.items.shit;
 import com.kwssdme.items.vocaloid;
 
@@ -10,15 +11,26 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
-
+//物品组
 public final class KwssdmeItemGroup {
     public static final ItemGroup KWSSDME_ITEM_GROUP = FabricItemGroup.builder()
             .icon(() -> new ItemStack(shit.shit))
             .displayName(Text.translatable("itemGroup.kwssdme"))
             .entries((context, entries)->{
                 entries.add(shit.shit);
-                entries.add(vocaloid.vocaloid);})
+                entries.add(vocaloid.vocaloid);
+                entries.add(SkyContry.SKY_CONTRY);
                 
+            
+            
+            
+            
+            
+            
+            
+            
+            //entries.add(class_name.(Item + item_name));
+            })
             .build();
 
     public static void initialize(){
