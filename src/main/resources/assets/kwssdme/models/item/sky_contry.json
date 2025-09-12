@@ -1,6 +1,6 @@
 {
     "parent": "minecraft:item/generated",
     "textures": {
-        "layer0": "kwssdme:item/SkyContry"
+        "layer0": "kwssdme:item/sky_contry"
     }
 }
