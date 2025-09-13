@@ -1,6 +1,7 @@
 package com.kwssdme.moditemgroup;
 
 import com.kwssdme.items.SkyContry;
+import com.kwssdme.items.SkyMusicSong;
 import com.kwssdme.items.shit;
 import com.kwssdme.items.vocaloid;
 
@@ -20,7 +21,7 @@ public final class KwssdmeItemGroup {
                 entries.add(shit.shit);
                 entries.add(vocaloid.vocaloid);
                 entries.add(SkyContry.SKY_CONTRY);
-                
+                entries.add(SkyMusicSong.SkyMusicSong);
             
             
             

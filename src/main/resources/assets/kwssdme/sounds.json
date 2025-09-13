@@ -10,6 +10,14 @@
     "sounds":[
         "kwssdme:sky_contry_sound"
     ]
+},
+"SkyMusic_sound":{
+    "sounds":[
+        {
+        "name":"kwssdme:天天天国地獄国",
+        "stream":true
+        }
+    ]
 }
 
 

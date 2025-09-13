@@ -5,6 +5,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import com.kwssdme.items.SkyContry;
+import com.kwssdme.items.SkyMusicSong;
 import com.kwssdme.items.shit;
 import com.kwssdme.items.vocaloid;
 import com.kwssdme.moditemgroup.KwssdmeItemGroup;
@@ -22,6 +23,7 @@ public class KwssdmeModInit implements ModInitializer{
         shit.initialize();
         vocaloid.initialize();
         SkyContry.initialize();
+        SkyMusicSong.initialize();
 
 
         //(class name) + .initialize();
