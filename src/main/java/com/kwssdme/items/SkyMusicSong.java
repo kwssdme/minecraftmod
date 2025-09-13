@@ -11,9 +11,9 @@ import net.minecraft.sound.SoundEvent;
 import net.minecraft.util.Identifier;
 
 public class SkyMusicSong extends Item{
-    public static final SoundEvent SkyMusicSound = register("SkyMusic_sound");
+    public static final SoundEvent SkyMusicSound = register("skymusicsound");
 
-    public static final Item SkyMusicSong = ModItems.registerItem("sky_music_song", new MusicDiscItem(15, SkyMusicSound, new Item.Settings().maxCount(1),234));
+    public static final Item SkyMusicSong = ModItems.registerItem("skymusicsong", new MusicDiscItem(15, SkyMusicSound, new Item.Settings().maxCount(1),240));
 
     public SkyMusicSong(Settings settings) {super(settings);}
 
